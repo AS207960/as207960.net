@@ -1,0 +1,4 @@
+Contact: mailto:noc@as207960.net
+Preferred-Languages: en
+Canonical: https://as207960.net/.well-known/security.txt
+
