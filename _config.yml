@@ -13,11 +13,28 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+
 title: AS207960
 email: contact@as207960.net
 url: "https://as207960.net" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: AS_207960
-github_username:  as207960
+twitter:
+  username: AS_207960
+github:
+  username: as207960
+logo: /assets/img/logo.png
+social:
+  links:
+    - https://github.com/as207960
+    - https://twitter.com/AS_207960
+    - https://www.linkedin.com/company/as207960/
+description: |-
+  AS207960 is an IPv6 only ASN. 
 
-include: [".well-known"]
+  We can provide hosting, DNS services, email, and servers on request, contact us for more info.
 
+
+include:
+  - ".well-known"
+
+plugins:
+  - jekyll-seo-tag
