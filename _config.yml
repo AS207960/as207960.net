@@ -38,3 +38,31 @@ include:
 
 plugins:
   - jekyll-seo-tag
+  - jekyll-paginate
+
+paginate_path: /posts/page:num/
+permalink: /posts/:title
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+future: true
+
+buttons:
+ - title: WHOIS
+   url: https://whois-web.as207960.net
+ - title: Docs
+   url: https://docs.as207960.net
+ - title: Contact Us
+   url: /contact
