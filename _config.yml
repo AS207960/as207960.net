@@ -58,11 +58,3 @@ defaults:
       layout: "post"
 
 future: true
-
-buttons:
- - title: WHOIS
-   url: https://whois-web.as207960.net
- - title: Docs
-   url: https://docs.as207960.net
- - title: Contact Us
-   url: /contact
