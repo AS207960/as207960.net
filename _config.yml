@@ -35,6 +35,7 @@ description: |-
 
 include:
   - ".well-known"
+  - "favicon.svg"
 
 plugins:
   - jekyll-seo-tag
