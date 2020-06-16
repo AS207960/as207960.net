@@ -10,7 +10,7 @@ title: AS207960
       <div class="jumbotron">
         <div class="row">
           <div class="col-md-4">
-            <img src="/assets/img/logo.png" class="mw-100" />
+            <img src="/assets/img/logo.svg" class="mw-100" />
           </div>
           <div class="col-md-8">
             <h1 class="display-4">AS207960</h1>
