@@ -21,7 +21,7 @@ twitter:
   username: AS_207960
 github:
   username: as207960
-logo: /assets/img/logo.png
+logo: /assets/img/logo.svg
 social:
   links:
     - https://github.com/as207960
@@ -38,3 +38,23 @@ include:
 
 plugins:
   - jekyll-seo-tag
+  - jekyll-paginate
+
+paginate_path: /posts/page:num/
+permalink: /posts/:title
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+future: true
