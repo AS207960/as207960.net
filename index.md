@@ -15,7 +15,7 @@ buttons:
 ---
 
 <main role="main" class="flex-shrink-0">
-  <div class="container">
+  <div class="container my-3">
     <div class="row">
       <div class="col-md-8">
         <div class="jumbotron">
