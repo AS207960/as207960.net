@@ -15,8 +15,8 @@
 # in the templates via {{ site.myvariable }}.
 
 title: AS207960
-email: contact@as207960.net
-url: "https://as207960.net" # the base hostname & protocol for your site, e.g. http://example.com
+email: info@as207960.net
+url: "https://as207960.net"
 twitter:
   username: AS_207960
 github:
@@ -27,10 +27,8 @@ social:
     - https://github.com/as207960
     - https://twitter.com/AS_207960
     - https://www.linkedin.com/company/as207960/
-description: |-
-  AS207960 is an IPv6 only ASN. 
-
-  We can provide hosting, DNS services, email, and servers on request, contact us for more info.
+tagline: AS207960 is an UK based ASN
+#description: Looking for our customer facing site? It's <a href="https://as207960.net">here</a>
 
 
 include:

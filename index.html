@@ -1,0 +1,63 @@
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+layout: page
+title: AS207960
+buttons:
+  - title: "WHOIS"
+    url: "https://whois-web.as207960.net"
+  - title: "Contact Us"
+    url: "/contact"
+# Accredditaton logos are kept in _data/accreditations.yml
+# Staff in _data/directors.yml    
+---
+
+<main role="main" class="flex-shrink-0">
+  <div class="container my-3">
+    <div class="jumbotron">
+      <div class="row">
+        <div class="col-md-3">
+          <img src="{{site.logo}}" class="mw-100" />
+        </div>
+        <div class="col-md-9">
+          <h1 class="display-4">{{site.title}}</h1>
+          <p class="lead">{{site.tagline}}</p>
+          <p>{{ site.description }}</p>
+          {% for button in page.buttons %}
+          <a class="btn btn-primary btn-lg" href="{{ button.url }}" role="button">{{ button.title }}</a>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <h1>Who runs AS207960?</h1>
+        {% for person in site.data.directors %}
+          {% if person.url %}
+            <h3><a href="{{ person.url}}">{{ person.name }}</a></h3>
+          {% else %}
+            <h3>{{ person.name }}</h3>
+          {% endif %}
+        {% endfor %}  
+      </div>
+      <div class="col-md-6">
+        <h1>Peering</h1>
+        <p class="lead">We have an open policy; if you can get a link to us, you can peer</p>
+        <p>See our <a href="/peering/">peering policy</a> entry for more info</p>
+      </div>
+    </div>
+    <div class="row align-items-center">
+      {% for accred in site.data.accreditations %}
+        {% if accred.url %}
+          <div class="col-sm text-center my-3">
+            <a href="{{ accred.url }}"><img class="mw-100" style="max-height: 200px" src="{{ accred.image }}" alt="{{ accred.alt }}" /></a>
+          </div>
+        {% else %}
+          <div class="col-sm text-center my-3">
+            <img class="mw-100" style="max-height: 200px" src="{{ accred.image }} " alt="{{ accred.alt }}" />
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</main>
