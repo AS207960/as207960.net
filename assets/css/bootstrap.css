@@ -6453,4 +6453,38 @@ body {
   padding-right: 15px;
   padding-left: 15px; }
 
+section.stripe {
+  position: relative;
+  background: linear-gradient(270deg, #319795, #2a4365, #3182ce);
+  background-size: 600% 600%;
+  animation: stripe 30s ease-in-out alternate infinite; }
+
+section.stripe::before, section.stripe::after {
+  background: inherit;
+  top: 0;
+  content: '';
+  display: block;
+  height: 50%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  transform: skewY(-3deg);
+  transform-origin: 0 100%;
+  z-index: -1;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); }
+
+section.stripe::after {
+  bottom: 0;
+  top: unset;
+  transform: skewY(-3deg);
+  transform-origin: 100% 0; }
+
+@keyframes stripe {
+  0% {
+    background-position: 14% 0; }
+  50% {
+    background-position: 87% 100%; }
+  100% {
+    background-position: 14% 0; } }
+
 /*# sourceMappingURL=custom.css.map */
