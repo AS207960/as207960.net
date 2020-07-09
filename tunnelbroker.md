@@ -18,4 +18,4 @@ We can give a prefix from our own address space to you, anywhere from a /64 to a
 
 If you have your own ASN and some public IPv4/IPv6 space we're happy to provide you with
 a tunnel in which to peer with us over for hobby purposes, subject to our standard 
-[peering policy](/peering/).
+[peering policy](/peering).
