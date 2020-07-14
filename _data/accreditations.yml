@@ -4,3 +4,5 @@
   image: "/assets/img/acc_reg_cnic.png"
 - alt: "Nominet Accredited Channel Partner"
   image: "/assets/img/Nominet_ACP_Land_RGB_Light_Blue.png"
+- alt: ".fi Accredited Registrar"
+  image: "/assets/img/verkkotunnus_registrar_rgb.svg"
