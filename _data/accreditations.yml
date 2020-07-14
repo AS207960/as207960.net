@@ -6,3 +6,5 @@
   image: "/assets/img/Nominet_ACP_Land_RGB_Light_Blue.png"
 - alt: ".fi Accredited Registrar"
   image: "/assets/img/verkkotunnus_registrar_rgb.svg"
+- alt: "SWITCH Accredited Registrar"
+  image: "/assets/img/SWITCH_logo.svg"

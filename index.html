@@ -50,11 +50,11 @@ buttons:
       {% for accred in site.data.accreditations %}
         {% if accred.url %}
           <div class="col-sm text-center my-3">
-            <a href="{{ accred.url }}"><img class="mw-100" style="max-height: 200px" src="{{ accred.image }}" alt="{{ accred.alt }}" /></a>
+            <a href="{{ accred.url }}"><img class="mw-100" style="max-height: 200px" src="{{ accred.image }}" title=alt="{{ accred.alt }}" alt="{{ accred.alt }}" /></a>
           </div>
         {% else %}
           <div class="col-sm text-center my-3">
-            <img class="mw-100" style="max-height: 200px" src="{{ accred.image }} " alt="{{ accred.alt }}" />
+            <img class="mw-100" style="max-height: 200px" src="{{ accred.image }}" title="{{ accred.alt }}" alt="{{ accred.alt }}" />
           </div>
         {% endif %}
       {% endfor %}
