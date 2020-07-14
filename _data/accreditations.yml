@@ -8,3 +8,7 @@
   image: "/assets/img/verkkotunnus_registrar_rgb.svg"
 - alt: "SWITCH Accredited Registrar"
   image: "/assets/img/SWITCH_logo.svg"
+- alt: "NLNOG RING Member"
+  image: "/assets/img/NLNOGRINGlogo.png"
+- alt: "FrickelNOG Member"
+  image: "/assets/img/frickelnog-logo.png"

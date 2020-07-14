@@ -37,7 +37,7 @@ include:
 
 plugins:
   - jekyll-seo-tag
-  - jekyll-paginate
+#  - jekyll-paginate
 
 paginate_path: /posts/page:num/
 permalink: /posts/:title
