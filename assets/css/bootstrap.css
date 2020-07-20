@@ -6464,11 +6464,11 @@ section.stripe::before, section.stripe::after {
   top: 0;
   content: '';
   display: block;
-  height: 50%;
+  height: 100%;
   left: 0;
   position: absolute;
   right: 0;
-  transform: skewY(-3deg);
+  transform: skewY(-2deg);
   transform-origin: 0 100%;
   z-index: -1;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); }
@@ -6476,7 +6476,6 @@ section.stripe::before, section.stripe::after {
 section.stripe::after {
   bottom: 0;
   top: unset;
-  transform: skewY(-3deg);
   transform-origin: 100% 0; }
 
 @keyframes stripe {
