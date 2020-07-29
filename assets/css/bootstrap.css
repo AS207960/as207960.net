@@ -6458,7 +6458,10 @@ section.stripe {
   background: linear-gradient(270deg, #319795, #2a4365, #3182ce);
   background-size: 600% 600%;
   transform: skewY(-2deg) translateZ(0);
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); }
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  overflow: hidden; }
+  section.stripe > * {
+    transform: skewY(2de); }
 
 section.stripe::before {
   background: linear-gradient(270deg, #319795, #2a4365, #3182ce);
