@@ -6457,34 +6457,26 @@ section.stripe {
   position: relative;
   background: linear-gradient(270deg, #319795, #2a4365, #3182ce);
   background-size: 600% 600%;
-  animation: stripe 30s ease-in-out alternate infinite;
-  transform: translateZ(0); }
+  transform: skewY(-2deg) translateZ(0);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); }
 
-section.stripe::before, section.stripe::after {
-  background: inherit;
+section.stripe::before {
+  background: linear-gradient(270deg, #319795, #2a4365, #3182ce);
   top: 0;
   content: '';
   display: block;
   height: 100%;
-  left: 0;
+  left: -100%;
   position: absolute;
-  right: 0;
-  transform: skewY(-2deg) translateZ(0);
-  transform-origin: 0 100%;
+  right: -100%;
+  transform: translateX(-33%);
   z-index: -1;
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); }
-
-section.stripe::after {
-  bottom: 0;
-  top: unset;
-  transform-origin: 100% 0; }
+  animation: stripe 30s ease-in-out alternate infinite; }
 
 @keyframes stripe {
   0% {
-    background-position: 0 0; }
-  50% {
-    background-position: 100% 0; }
+    transform: translateX(-33%); }
   100% {
-    background-position: 0 0; } }
+    transform: translateX(33%); } }
 
 /*# sourceMappingURL=custom.css.map */
