@@ -6455,9 +6455,6 @@ body {
 
 section.stripe {
   position: relative;
-  background: linear-gradient(270deg, #319795, #2a4365, #3182ce);
-  background-size: 600% 600%;
-  transform: skewY(-2deg) translateZ(0);
   overflow: hidden;
   padding-bottom: 5vh;
   margin-bottom: -5vh;
