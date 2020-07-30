@@ -6458,32 +6458,30 @@ section.stripe {
   background: linear-gradient(270deg, #319795, #2a4365, #3182ce);
   background-size: 600% 600%;
   transform: skewY(-2deg) translateZ(0);
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
   overflow: hidden;
-  padding-bottom: 3%;
-  margin-bottom: -3%;
-  padding-top: 3%;
-  margin-top: -3%; }
-  section.stripe > * {
-    transform: skewY(2deg); }
+  padding-bottom: 5vh;
+  margin-bottom: -5vh;
+  padding-top: 5vh;
+  margin-top: -5vh; }
 
 section.stripe::before {
   background: linear-gradient(270deg, #319795, #2a4365, #3182ce);
-  top: 0;
+  top: 4vh;
   content: '';
   display: block;
-  height: 100%;
+  bottom: 4vh;
   left: -100%;
   position: absolute;
   right: -100%;
-  transform: translateX(-33%);
+  transform: skewY(-2deg) translateX(-12%);
   z-index: -1;
-  animation: stripe 30s ease-in-out alternate infinite; }
+  animation: stripe 30s ease-in-out alternate infinite;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); }
 
 @keyframes stripe {
   0% {
-    transform: translateX(-33%); }
+    transform: skewY(-2deg) translateX(-33%); }
   100% {
-    transform: translateX(33%); } }
+    transform: skewY(-2deg) translateX(33%); } }
 
 /*# sourceMappingURL=custom.css.map */
