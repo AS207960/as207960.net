@@ -6453,14 +6453,17 @@ body {
   padding-right: 15px;
   padding-left: 15px; }
 
+header {
+  z-index: 9;
+  position: relative; }
+
 section.stripe {
   position: relative;
   overflow: hidden;
   padding-bottom: 5vh;
   margin-bottom: -5vh;
   padding-top: 5vh;
-  margin-top: -5vh;
-  z-index: -2; }
+  margin-top: -5vh; }
 
 section.stripe::before {
   background: linear-gradient(270deg, #319795, #2a4365, #3182ce);
@@ -6472,7 +6475,7 @@ section.stripe::before {
   position: absolute;
   right: -100%;
   transform: skewY(-2deg) translateX(-12%);
-  z-index: -3;
+  z-index: -1;
   animation: stripe 30s ease-in-out alternate infinite;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); }
 
