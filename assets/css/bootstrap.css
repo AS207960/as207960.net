@@ -6441,7 +6441,7 @@ b {
   color: #2A4365; }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', 'Noto Color Emoji', 'Apple Color Emoji', sans-serif;
   min-height: 100vh;
   display: flex;
   flex-direction: column; }
