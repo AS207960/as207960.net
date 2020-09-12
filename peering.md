@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Peering policy
+description: Our policy for BGP interconnections with our network.
 ---
 
 # Peering with us
