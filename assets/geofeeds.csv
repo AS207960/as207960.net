@@ -21,4 +21,6 @@
 2a0d:1a40:7900:8::/64,DE,DE-HE,Frankfurt,
 2a0d:1a40:7900:9::/64,US,US-VA,Ashburn,
 2a0d:1a40:7900:a::/64,DE,DE-SN,Falkenstein,
+2a0d:1a40:7900:fc00::/56,GB,GB-ENG,London,
+2a0d:1a40:7900:fd00::/56,GB,GB-ENG,,
 2a0d:1a40:79ff::/48,GB,GB-ENG,Huddersfield,
