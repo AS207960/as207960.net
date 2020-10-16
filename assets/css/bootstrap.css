@@ -6488,5 +6488,24 @@ section.stripe::before {
     transform: skewY(-2deg) translateX(-33%); }
   100% {
     transform: skewY(-2deg) translateX(33%); } }
+.text-gradient {
+  background-clear: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent; }
+  .text-gradient.blue-teal {
+    background: linear-gradient(45deg, #3182CE, #319795); }
+  .text-gradient.teal-indigo {
+    background: linear-gradient(45deg, #319795, #5A67D8); }
+  .text-gradient.green-teal {
+    background: linear-gradient(45deg, #38A169, #319795); }
+  .text-gradient.purple-pink {
+    background: linear-gradient(45deg, #805AD5, #D53F8C); }
+  .text-gradient.pink-red {
+    background: linear-gradient(45deg, #D53F8C, #E53E3E); }
+  .text-gradient.yellow-orange {
+    background: linear-gradient(45deg, #D69E2E, #DD6B20); }
 
 /*# sourceMappingURL=custom.css.map */
