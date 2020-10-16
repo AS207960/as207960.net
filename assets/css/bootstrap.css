@@ -6489,11 +6489,11 @@ section.stripe::before {
   100% {
     transform: skewY(-2deg) translateX(33%); } }
 .text-gradient {
-  background-clear: text;
+  background-clip: text;
   text-fill-color: transparent;
   -webkit-background-clip: text;
-  -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
   -moz-text-fill-color: transparent; }
   .text-gradient.blue-teal {
     background: linear-gradient(45deg, #3182CE, #319795); }
