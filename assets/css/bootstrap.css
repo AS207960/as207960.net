@@ -6493,6 +6493,7 @@ section.stripe::before {
   text-fill-color: transparent;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  -webkit-box-decoration-break: clone;
   -moz-background-clip: text;
   -moz-text-fill-color: transparent; }
   .text-gradient.blue-teal {
