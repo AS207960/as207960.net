@@ -24,3 +24,12 @@
 2a0d:1a40:7900:fc00::/56,GB,GB-ENG,London,
 2a0d:1a40:7900:fd00::/56,GB,GB-ENG,,
 2a0d:1a40:79ff::/48,GB,GB-ENG,Huddersfield,
+2a0d:1a40:7901::/48,,,,
+2a0e:1cc1::/64,GB,GB-CYM,Caerdydd,
+2a0e:1cc1:0:1::/64,GB,GB-CYM,Caerdydd,
+2a0e:1cc1:0:2::/64,GB,GB-CYM,Caerdydd,
+2a0e:1cc1:0:3::/64,DE,DE-SN,Falkenstein,
+2a0e:1cc1:0:4::/64,GB,GB-ENG,London,
+2a0e:1cc1:0:7::/64,GB,GB-ENG,London,
+2a0e:1cc1:1::/48,,,,
+
