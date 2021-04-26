@@ -8427,6 +8427,9 @@ section.stripe::before {
   animation: stripe 30s ease-in-out alternate infinite;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); }
 
+@media (prefers-reduced-motion) {
+  section.stripe::before {
+    animation: none; } }
 @keyframes stripe {
   0% {
     transform: skewY(-2deg) translateX(-33%); }
