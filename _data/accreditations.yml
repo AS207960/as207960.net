@@ -2,6 +2,8 @@
   image: "/assets/img/MANRS_Vertical.svg"
 - alt: "CentralNIC accredited registrar"
   image: "/assets/img/acc_reg_cnic.png"
+- alt: "Nominet Member"
+  image: "/assets/img/Nominet_OM_Land_RGB_Grey.png"
 - alt: "Nominet Accredited Channel Partner"
   image: "/assets/img/Nominet_ACP_Land_RGB_Light_Blue.png"
 - alt: ".fi Accredited Registrar"
