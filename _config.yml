@@ -31,6 +31,8 @@ tagline: A UK based ASN, the IP networking side of Glauca
 description: Looking for our customer facing site? It's <a href="https://glauca.digital">here</a>
 
 
+exclude:
+  - "deploy.sh"
 include:
   - ".well-known"
   - "favicon.svg"
