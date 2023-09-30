@@ -1,0 +1,12 @@
+[{
+  "targets": [
+    "https://as207960.net", "https://glauca.digital", "https://domains.glauca.digital", "https://dns.glauca.digital",
+    "https://billing.as207960.net", "https://portal.glauca.digital", "https://sso.as207960.net", "https://oauth.as207960.net",
+    "https://docs.glauca.digital", "https://support.as207960.net", "https://whois-web.as207960.net", "https://glauca.space",
+    "https://esign.as207960.net/envelope", "https://nb.as207960.net", "https://postal.as207960.net", "https://rpki.as207960.net",
+    "https://lg.as207960.net", "https://rabbitmq.as207960.net", "https://louisemisellinteriors.co.uk"
+  ],
+  "labels": {
+    "__param_module": "http_2xx"
+  }
+}]
