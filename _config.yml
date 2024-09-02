@@ -30,7 +30,6 @@ social:
 tagline: A UK based ASN, the IP networking side of Glauca
 description: Looking for our customer facing site? It's <a href="https://glauca.digital">here</a>
 
-
 exclude:
   - "deploy.sh"
 include:
@@ -39,20 +38,17 @@ include:
 
 plugins:
   - jekyll-seo-tag
-#  - jekyll-paginate
 
 paginate_path: /posts/page:num/
 permalink: /posts/:title
 
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
       type: "pages"
     values:
       layout: "default"
-  -
-    scope:
+  - scope:
       path: ""
       type: "posts"
     values:
